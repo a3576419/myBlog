@@ -73,6 +73,7 @@
 <!--            <artifactId>tocbot</artifactId>-->
 <!--            <version>4.11.2</version>-->
 <!--        </dependency>-->
+<!--        mvn install:install-file -Dfile=D:\workspace\idea\PrivateBlog\src\main\resources\lib\typo.css-2.1.2.jar -DgroupId=org.webjars.bowergithub.sofish -DartifactId=typo.css -Dversion=2.1.2 -Dpackaging=jar-->
         <dependency>
             <groupId>org.webjars.bowergithub.sofish</groupId>
             <artifactId>typo.css</artifactId>
