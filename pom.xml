@@ -47,7 +47,32 @@
             <artifactId>Semantic-UI</artifactId>
             <version>2.4.1</version>
         </dependency>
+        <!--markdown编辑器插件-->
+        <dependency>
+            <groupId>org.webjars.bowergithub.pandao</groupId>
+            <artifactId>editor.md</artifactId>
+            <version>1.5.0</version>
+        </dependency>
 
+        <!--animate-->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>animate.css</artifactId>
+            <version>3.7.2</version>
+        </dependency>
+        <!--代码高亮-->
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>prismjs</artifactId>
+            <version>1.20.0</version>
+        </dependency>
+
+<!--        自动生成目录-->
+<!--        <dependency>-->
+<!--            <groupId>org.webjars.bowergithub.tscanlin</groupId>-->
+<!--            <artifactId>tocbot</artifactId>-->
+<!--            <version>4.11.2</version>-->
+<!--        </dependency>-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter-data-jpa</artifactId>-->
@@ -77,13 +102,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <!-- jquery -->
-
-        <dependency>
-            <groupId>org.webjars.bowergithub.pandao</groupId>
-            <artifactId>editor.md</artifactId>
-            <version>1.5.0</version>
         </dependency>
 
     </dependencies>
