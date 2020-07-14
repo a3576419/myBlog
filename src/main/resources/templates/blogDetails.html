@@ -6,9 +6,12 @@
     <link rel="stylesheet" type="text/css" href="webjars/Semantic-UI/2.4.1/semantic.css">
     <link rel="stylesheet" type="text/css" href="webjars/animate.css/3.7.2/animate.css">
     <link rel="stylesheet" type="text/css" href="webjars/prismjs/1.20.0/themes/prism.css">
+    <link rel="stylesheet" type="text/css" href="webjars/tocbot/dist/tocbot.css">
     <link rel="stylesheet" href="/css/diy.css">
     <link rel="stylesheet" href="/css/typo.css">
     <title>博客详情</title>
+
+
 </head>
 <body>
 <!--导航栏-->
@@ -33,7 +36,7 @@
     </a>
 </nav>
 <!--中间内容-->
-<div class="m-container-small m-padded-tb-big animated pulse">
+<div id="waypoints" class="m-container-small m-padded-tb-big animated pulse">
     <div class="ui container">
         <div class="ui container">
             <div class="ui top attached segment">
@@ -60,7 +63,7 @@
                 </div>
                 <h2 class="ui center aligned header">相逢一盏淡酒，相识一场言说！</h2>
                 <br>
-                <div id="content" class="typo typo-selection m-padded-lr-responsive  m-padded-tb-large">
+                <div id="content" class="typo typo-selection js-toc-content m-padded-lr-responsive  m-padded-tb-large">
                     <h2 id="section1">一、关于 <i class="serif">Typo.css</i></h2>
 
                     <pre><code class="language-css">p{color:red}</code> </pre>
@@ -280,7 +283,7 @@
                         demo you're watching now. The following code is the best way to render typo in Chinese:
                     </p>
 
- <pre ><code class="language-css">
+                    <pre><code class="language-css">
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
 
 h1,h2,h3,h4,h5,h6 {
@@ -298,7 +301,7 @@ h5,h6{font-size:1em;}
 }
 </code></pre>
 
-                    <h3 id="section3">三、附录</h3>
+                    <h2 id="section3">三、附录</h2>
 
                     <h5 id="appendix1">1、<i class="serif">Typo.css</i> 排版偏重点</h5>
                     <table class="ui table " summary="Typo.css 排版偏重点">
@@ -606,19 +609,27 @@ h5,h6{font-size:1em;}
 
 </div>
 
-<div class="m-padded m-fixed m-right-bottom">
+<div id="toolbar" class="m-padded m-fixed m-right-bottom m-margin-bottom" style="display: none;">
     <div class="ui vertical icon buttons">
         <button id="menu_create" type="button" class="ui teal button">目录</button>
         <a href="#comment-container" class="ui teal button">留言</a>
-        <button class="ui icon button"><i class="twitter icon"></i></button>
-        <a href="#" class="ui icon button"><i class="chevron up icon"></i></a>
+        <button class="ui twitter icon button"><i class="twitter icon"></i></button>
+        <div id="toTopButton" class="ui icon button"><i class="chevron up icon"></i></div>
     </div>
 </div>
 
-<div class="ui toc-container flowing popup transition hidden">
+<div class="ui toc-container flowing popup transition hidden" style="width: 250px;">
     生成的目录
+    <ol class="js-toc">
+
+    </ol>
+</div>
+
+<div id="qrCode" class="ui weiXinR flowing popup transition hidden m-padded-mini" style="width: 100px!important;">
+    <!--    <img src="../images/wechat.jpg" alt="" class="ui rounded image" style="width: 130px!important;">-->
 
 </div>
+
 <!--底部footer-->
 <footer class="ui inverted vertical segment m-padded-tb-big">
     <div class="ui center aligned container">
@@ -663,6 +674,11 @@ h5,h6{font-size:1em;}
 <script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.js"></script>
 <script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
 <script type="application/javascript" src="webjars/prismjs/1.20.0/prism.js"></script>
+<script type="application/javascript" src="webjars/tocbot/dist/tocbot.js"></script>
+<script type="application/javascript" src="webjars/qrcodejs/1c78ccd/qrcode.js"></script>
+<script type="application/javascript" src="webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js"></script>
+<script type="application/javascript" src="webjars/waypoints/lib/jquery.waypoints.js"></script>
+
 
 <script>
     $('#button').click(function () {
@@ -671,14 +687,47 @@ h5,h6{font-size:1em;}
     $('#payButton').popup({
         popup: $('.payQ.popup'),
         on: 'click',
-        position: 'bottom center'
+        position: 'bottom top'
 
     });
+    tocbot.init({
+        //where to grab the headings to build the table of contents.
+        tocSelector: '.js-toc',
+        contentSelector: '.js-toc-content',
+        headingSelector: 'h1,h2,h3'
+    });
+
+    $('.twitter').popup({
+        popup: $('.weiXinR'),
+        position: 'left center'
+    })
     $('#menu_create').popup({
         popup: $('.toc-container'),
         on: 'click',
         position: 'left center'
 
+    });
+
+    var qrcode = new QRCode('qrCode', {
+        text: 'http://jindo.dev.maver.com/collie',
+        width: 100,
+        height: 100,
+        colorDark: '#000000',
+        colorLight: '#ffffff',
+        correctLevel: QRCode.CorrectLevel.H
+    });
+    $('#toTopButton').click(function () {
+        $(window).scrollTo(0, 500);
+    })
+    var waypoints = new Waypoint({
+        element: $('#waypoints'),
+        handler: function (direction) {
+            if (direction == 'down') {
+                $('#toolbar').show(100);
+            }else{
+                $('#toolbar').hide(500);
+            }
+        }
     })
 </script>
 </body>

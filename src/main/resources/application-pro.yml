@@ -1,0 +1,29 @@
+server:
+  port: 80
+
+spring:
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+
+  thymeleaf:
+    cash=false: false
+  resources:
+    static-locations: classpath:/static
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/blog?useUnicode=true&&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+#  type-aliases-package:
+
+logging:
+  level:
+    root: warn
+    com.aioe.test.demo: info
+  file:
+    path: log/blog-pro.log

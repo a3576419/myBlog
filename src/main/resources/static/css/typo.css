@@ -1,11 +1,29 @@
 @charset "utf-8";
 
+.toc-list li a {
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  font-weight: 300;
+}
+
+.toc-list li a:hover{
+  color: teal;
+}
+.is-active-link{
+  color: #1abc9c;
+}
+.toc-link:before{
+  height: 20px;
+}
 .typo{
   font-size: 16px;
   font-weight: 300;
   line-height: 1.8;
   text-align: justify;
 }
+
+
 
 /* 要注意表单元素并不继承父级 font 的问题 */
 .typo button,.typo input,.typo select,.typo textarea {
