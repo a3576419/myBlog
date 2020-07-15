@@ -19,6 +19,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.aioe.test.demo.pojo
 #  type-aliases-package:
 
 logging:

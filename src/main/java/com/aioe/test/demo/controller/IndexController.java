@@ -13,9 +13,16 @@ public class IndexController {
     @GetMapping("/")
     public String index(){
         return "index";
+    }@GetMapping("/")
+    public String loginRoot(){
+        return "index";
     }
     @GetMapping("/blog")
     public String blog(){
         return "blogDetails";
+    }
+    @GetMapping("/blogIndex")
+    public String blogLogin(){
+        return "admin/index";
     }
 }
