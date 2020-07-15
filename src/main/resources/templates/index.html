@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" href="/css/diy.css">
+    <link rel="stylesheet" type="text/css" href="webjars/Semantic-UI/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="/css/diy.css" th:href="@{/css/diy.css}">
     <title>首页</title>
 </head>
 <body>
 <!--导航栏-->
-    <nav class="ui inverted attached segment m-padded-tb-mini">
+    <nav th:replace="_fragments ::menu(1)" class="ui inverted attached segment m-padded-tb-mini">
         <div class="ui container">
             <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
@@ -468,7 +468,7 @@
     </div>
 
 <!--底部footer-->
-    <footer class="ui inverted vertical segment m-padded-tb-big">
+<footer th:replace="_fragments ::footer" class="ui inverted vertical segment m-padded-tb-big">
         <div class="ui center aligned container">
             <div class="ui inverted divided stackable grid">
                 <div class="three wide column">
@@ -506,8 +506,10 @@
         </div>
 
     </footer>
-<script type="application/javascript" src="../webjars/jquery/1.6.0/jquery.js"></script>
-<script type="application/javascript" src="../webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
+<!--/*/<th:block th:replace="_fragments ::script">/*/-->
+    <script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.min.js"></script>
+    <script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
+<!--/*/</th:block>/*/-->
 <script>
     $('#button').click(function () {
         $('.nav-item').toggleClass('m-mobile-hide')

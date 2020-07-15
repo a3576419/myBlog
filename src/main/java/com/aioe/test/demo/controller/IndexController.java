@@ -10,14 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @GetMapping("/{id}/{name}")
-    public String index(@PathVariable Integer id, @PathVariable String name){
-//        int i = 9/0;
-//        if (true){
-//            throw  new NotFoundException("博客不存在 404");
-//        }
-        System.out.println("----------index----------");
-        System.out.println("id========="+id+"name===="+name);
-        return "test";
+    @GetMapping("/")
+    public String index(){
+        return "index";
+    }
+    @GetMapping("/blog")
+    public String blog(){
+        return "blogDetails";
     }
 }

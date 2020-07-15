@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" type="text/css" href="webjars/animate.css/3.7.2/animate.css">
-    <link rel="stylesheet" type="text/css" href="webjars/prismjs/1.20.0/themes/prism.css">
-    <link rel="stylesheet" type="text/css" href="webjars/tocbot/dist/tocbot.css">
-    <link rel="stylesheet" href="/css/diy.css">
-    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" type="text/css" href="webjars/Semantic-UI/2.4.1/semantic.css" th:href="webjars/Semantic-UI/2.4.1/semantic.css">
+    <link rel="stylesheet" type="text/css" href="webjars/animate.css/3.7.2/animate.css" th:href="webjars/animate.css/3.7.2/animate.css">
+    <link rel="stylesheet" type="text/css" href="webjars/prismjs/1.20.0/themes/prism.css" th:href="@{webjars/prismjs/1.20.0/themes/prism.css}">
+    <link rel="stylesheet" type="text/css" href="webjars/tocbot/dist/tocbot.css" th:href="@{webjars/tocbot/dist/tocbot.css}">
+    <link rel="stylesheet" href="/css/diy.css" th:href="@{/css/diy.css}">
+    <link rel="stylesheet" href="/css/typo.css" th:href="@{/css/typo.css}">
     <title>博客详情</title>
-
-
 </head>
 <body>
 <!--导航栏-->
-<nav class="ui inverted attached segment m-padded-tb-mini">
+<nav th:replace="_fragments ::menu(1)" class="ui inverted attached segment m-padded-tb-mini">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">Blog</h2>
@@ -631,7 +629,7 @@ h5,h6{font-size:1em;}
 </div>
 
 <!--底部footer-->
-<footer class="ui inverted vertical segment m-padded-tb-big">
+<footer th:replace="_fragments ::footer" class="ui inverted vertical segment m-padded-tb-big">
     <div class="ui center aligned container">
         <div class="ui inverted divided stackable grid">
             <div class="three wide column">
@@ -671,6 +669,7 @@ h5,h6{font-size:1em;}
 
 </footer>
 
+<!--/*/<th:block th:replace="_fragments ::script">/*/-->
 <script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.js"></script>
 <script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
 <script type="application/javascript" src="webjars/prismjs/1.20.0/prism.js"></script>
@@ -678,6 +677,7 @@ h5,h6{font-size:1em;}
 <script type="application/javascript" src="webjars/qrcodejs/1c78ccd/qrcode.js"></script>
 <script type="application/javascript" src="webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js"></script>
 <script type="application/javascript" src="webjars/waypoints/lib/jquery.waypoints.js"></script>
+<!--/*/</th:block>/*/-->
 
 
 <script>
