@@ -3,10 +3,10 @@
 <head th:fragment="head(title)">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" href="webjars/editor.md/css/editormd.min.css">
-    <link rel="stylesheet" href="webjars/editor.md/lib/codemirror/codemirror.min.css">
-    <link rel="stylesheet" href="css/diy.css">
+    <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.4.1/semantic.css" th:href="@{/webjars/Semantic-UI/2.4.1/semantic.css}">
+    <link rel="stylesheet" href="/webjars/editor.md/css/editormd.min.css" th:href="@{/webjars/editor.md/css/editormd.min.css}">
+    <link rel="stylesheet" href="/webjars/editor.md/lib/codemirror/codemirror.min.css" th:href="@{/webjars/editor.md/lib/codemirror/codemirror.min.css}">
+    <link rel="stylesheet" href="/css/diy.css" th:href="@{/css/diy.css}">
     <title th:replace="${title}">后台管理</title>
 </head>
 <body>
@@ -14,9 +14,9 @@
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">博客后台管理</h2>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:class="${n==1} ? 'active'"><i class="home icon"></i>博客</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:class="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:class="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
+            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>博客</a>
+            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
+            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
             <div class="right m-mobile-hide menu">
                 <div class="ui dropdown item">
                     <div class="text">
@@ -77,13 +77,13 @@
 </footer>
 
 <th:block th:fragment="script">
-    <script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.js" th:src="@{webjars/jquery/3.5.1/dist/jquery.js}"></script>
-    <script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js" th:src="@{webjars/Semantic-UI/2.4.1/semantic.min.js}"></script>
-    <script type="application/javascript" src="webjars/prismjs/1.20.0/prism.js" th:src="@{webjars/prismjs/1.20.0/prism.js}"></script>
-    <script type="application/javascript" src="webjars/tocbot/dist/tocbot.js" th:src="@{webjars/tocbot/dist/tocbot.js}"></script>
-    <script type="application/javascript" src="webjars/qrcodejs/1c78ccd/qrcode.js" th:src="@{webjars/qrcodejs/1c78ccd/qrcode.js}"></script>
-    <script type="application/javascript" src="webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js" th:src="@{webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js}"></script>
-    <script type="application/javascript" src="webjars/waypoints/lib/jquery.waypoints.js" th:src="@{webjars/waypoints/lib/jquery.waypoints.js}"></script>
+    <script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js" th:src="@{/webjars/jquery/3.5.1/dist/jquery.js}"></script>
+    <script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.4.1/semantic.min.js}"></script>
+    <script type="application/javascript" src="/webjars/prismjs/1.20.0/prism.js" th:src="@{/webjars/prismjs/1.20.0/prism.js}"></script>
+    <script type="application/javascript" src="/webjars/tocbot/dist/tocbot.js" th:src="@{/webjars/tocbot/dist/tocbot.js}"></script>
+    <script type="application/javascript" src="/webjars/qrcodejs/1c78ccd/qrcode.js" th:src="@{/webjars/qrcodejs/1c78ccd/qrcode.js}"></script>
+    <script type="application/javascript" src="/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js" th:src="@{/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js}"></script>
+    <script type="application/javascript" src="/webjars/waypoints/lib/jquery.waypoints.js" th:src="@{/webjars/waypoints/lib/jquery.waypoints.js}"></script>
 </th:block>
 </body>
 </html>

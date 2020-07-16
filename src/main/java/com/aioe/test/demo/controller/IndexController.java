@@ -13,7 +13,8 @@ public class IndexController {
     @GetMapping("/")
     public String index(){
         return "index";
-    }@GetMapping("/")
+    }
+    @GetMapping("/login")
     public String loginRoot(){
         return "index";
     }
@@ -24,5 +25,9 @@ public class IndexController {
     @GetMapping("/blogIndex")
     public String blogLogin(){
         return "admin/index";
+    }
+    @GetMapping("/blogsInput")
+    public String blogsInput(){
+        return "admin/blogs-input";
     }
 }

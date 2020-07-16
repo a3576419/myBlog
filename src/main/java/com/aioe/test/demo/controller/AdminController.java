@@ -17,7 +17,7 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("admin")
 public class AdminController {
 
-    @Autowired(required=true)
+    @Autowired
     private UserService userService;
 
     @GetMapping

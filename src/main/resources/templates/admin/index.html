@@ -3,8 +3,8 @@
 <head th:replace="admin/_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" href="../css/diy.css">
+    <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.4.1/semantic.css" th:href="@{/webjars/Semantic-UI/2.4.1/semantic.css}">
+    <link rel="stylesheet" href="/css/diy.css" th:href="@{/css/diy.css}">
     <title>博客管理</title>
 </head>
 <body>
@@ -99,9 +99,9 @@
 
 </footer>
 
-<!--/*/<th:block th:replace="_fragments ::script">/*/-->
-<script type="application/javascript" src="../../webjars/jquery/3.5.1/dist/jquery.js"></script>
-<script type="application/javascript" src="../../webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
+<!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->
+<script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js"></script>
+<script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
 <!--/*/</th:block>/*/-->
 <script>
     $('#button').click(function () {

@@ -1,189 +1,47 @@
-2020-07-15 07:58:45.278 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:05:43.484 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:06:22.870 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:07:14.778 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:08:15.994 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:08:39.224 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 08:30:59.304 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:12:14.061 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:12:29.859 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:12:37.305 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:53:53.441 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:53:59.031 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:58:55.913 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 09:59:05.331 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 10:02:16.293 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 10:02:25.566 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 10:06:22.353 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 13:00:36.575 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:07:51.263 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:16:02.366 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:16:28.297 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:16:54.269 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:18:42.935 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:18:50.308 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:19:18.859 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:20:36.054 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:21:14.336 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:22:22.732 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:23:54.056 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:24:14.827 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:24:26.785 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:25:24.993 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:25:50.212 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:26:26.490 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:27:23.629 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:27:48.015 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:29:05.442 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:30:05.305 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:30:15.710 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:31:07.816 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:31:25.614 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:32:22.097 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:33:16.225 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:33:32.144 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:36:30.429 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:37:11.030 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:37:23.065 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:38:03.662 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:39:11.556 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:41:17.465 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:41:27.901 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:41:38.747 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:42:47.673 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:43:26.563 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:44:15.397 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:45:35.469 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:45:52.711 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:46:50.652 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:48:22.137 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:48:57.921 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:49:36.133 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:50:56.203 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:51:20.105 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:51:31.525 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:51:48.682 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:52:33.557 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:53:21.234 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 14:54:47.586 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 15:26:18.642 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 15:39:58.478 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:07:57.154 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:27:49.347 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:27:52.831 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:28:40.781 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:28:49.329 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:31:11.086 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:31:54.862 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:00.198 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:04.463 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:36.146 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:40.322 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:46.768 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:32:50.392 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:02.728 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:26.962 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:36.390 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:39.975 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:44.330 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:33:47.414 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:34:36.527 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:34:48.772 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:35:29.537 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:35:37.689 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:39:10.205 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:39:16.568 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:41:15.874 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:41:43.218 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:10.827 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:13.954 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:19.690 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:26.941 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:35.195 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:42.613 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:42:46.390 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:43:17.136 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:43:21.302 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:43:35.992 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:43:42.317 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:43:56.749 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:44:22.464 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:44:33.370 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:44:39.052 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:44:59.541 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:45:05.183 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:45:09.392 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:45:21.519 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:53:39.292 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:59:41.905 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 16:59:44.753 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:00:02.232 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:00:08.384 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:00:14.853 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:00:17.992 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:02:39.402 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:03:11.768 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:03:41.285 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:03:43.768 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:03:47.550 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:03:58.861 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:04:04.894 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:04:10.325 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:04:15.756 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:05:41.751 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:06:05.830 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:06:08.226 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:07:40.830 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:07:48.082 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:08:37.778 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:08:54.505 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:08:57.497 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:10:12.567 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:10:15.213 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:11:03.647 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:11:05.605 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:11:37.495 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:11:40.419 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:11:58.657 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:12:00.994 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:12:46.422 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:12:49.130 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:12:55.988 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:12:59.259 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:13:08.704 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:13:43.507 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:13:45.794 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:15:58.101 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:16:00.455 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:16:21.617 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:16:25.147 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:16:45.894 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:17:05.143 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:18:11.605 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:19:06.867 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:19:32.550 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:19:59.161 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:20:28.531 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:20:38.251 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:21:25.540 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:21:32.777 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:21:47.277 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:21:55.426 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:22:33.869 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:22:36.363 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:22:56.028 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:22:58.693 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:23:12.924 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:23:17.384 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:24:17.169 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:24:32.740 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:24:41.531 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:24:51.534 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:25:24.011 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:26:02.874 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:27:09.506 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:27:15.757 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:27:55.768 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:28:00.623 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:29:41.832 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
-2020-07-15 17:32:30.647 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:09:32.513 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:10:56.454 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:12:31.241 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:15:07.811 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:15:07.838 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:15:07.940 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:15:18.174 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:15:18.174 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:15:18.175 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:17:31.879 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:17:31.880 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:17:31.880 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:18:01.564 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:18:01.565 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:18:01.566 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:20:38.103 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:20:38.103 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:20:38.104 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:21:09.734 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:21:09.735 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:21:09.736 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:22:27.121 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:22:27.121 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:22:27.122 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:23:24.166 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:23:24.167 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:23:24.168 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:27:58.947 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:28:17.088 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 08:36:46.091 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:36:46.092 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:36:46.094 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:36:49.083 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:36:49.083 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:36:49.084 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:36:50.047 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:36:50.048 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:36:50.050 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:36:50.657 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:36:50.657 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:36:50.658 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:36:51.259 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:36:51.259 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:36:51.260 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 08:39:26.175 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 08:39:26.176 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 08:39:26.176 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
