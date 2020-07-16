@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="admin/_fragments ::head(title)">
+<head th:replace="admin/_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.4.1/semantic.css">
     <link rel="stylesheet" href="/css/diy.css" >
     <title>注册</title>
 </head>
+<style>
+    body {
+        display: flex;
+        align-items: center; /*定义body的元素垂直居中*/
+        justify-content: center; /*定义body的里的元素水平居中*/
+    }
+</style>
 <body>
-    <div class="ui container">
-        123
+    <div class="ui container teal">
+
+           <h2>新用户注册</h2>
+            <hr>
+            <form class="ui large form" method="post" action="#" th:action="@{/admin/login}">
+                <div class="ui segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="username" placeholder="用户名">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="password" placeholder="密码">
+                        </div>
+                    </div>
+                    <button class="ui fluid large teal submit button">注册</button>
+                </div>
+
+                <div class="ui error message"></div>
+
+            </form>
+
+
     </div>
 </body>
 <!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->

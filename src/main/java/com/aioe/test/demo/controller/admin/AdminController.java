@@ -2,10 +2,8 @@ package com.aioe.test.demo.controller.admin;
 
 import com.aioe.test.demo.pojo.User;
 import com.aioe.test.demo.service.UserService;
-import com.aioe.test.demo.utils.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
