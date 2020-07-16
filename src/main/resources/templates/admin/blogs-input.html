@@ -36,7 +36,7 @@
         <i class="sidebar icon"></i>
     </a>
 </nav>
-<div class="ui attached pointing menu">
+<div th:replace="admin/_fragments ::menu2(1)" class="ui attached pointing menu">
     <div class="ui container">
         <div class="right menu">
             <a href="javascript:;" class="active teal item">发布</a>
@@ -221,10 +221,10 @@
     </div>
 
 </footer>
-<!--/*/<th:block th:replace="_fragments ::script">/*/-->
-<script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.js"></script>
-<script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
-<script type="application/javascript" src="webjars/editor.md/editormd.js"></script>
+<!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->
+<script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js"></script>
+<script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
+<script type="application/javascript" src="/webjars/editor.md/editormd.js"></script>
 <!--/*/</th:block>/*/-->
 <script>
     $('#button').click(function () {
@@ -247,12 +247,12 @@
     });
     var contentEditor;
 
-    $(function() {
+    $(function () {
         contentEditor = editormd("md-content", {
-            width   : "100%",
-            height  : 640,
-            syncScrolling : "single",
-            path    : "../../webjars/editor.md/lib/"
+            width: "100%",
+            height: 640,
+            syncScrolling: "single",
+            path: "../../webjars/editor.md/lib/"
         });
 
 

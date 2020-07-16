@@ -45,3 +45,182 @@
 2020-07-16 08:39:26.175 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
 2020-07-16 08:39:26.176 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
 2020-07-16 08:39:26.176 [http-nio-80-exec-5] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 09:50:43.513 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 09:59:54.298 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:04:51.901 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:06:01.920 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:06:37.757 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:08:12.554 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:08:25.293 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 10:08:25.311 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), 1(String)
+2020-07-16 10:08:25.328 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 10:10:30.916 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:10:41.463 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:10:45.107 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:11:01.641 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:19:22.219 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:19:53.410 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:20:34.584 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:20:58.649 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:21:03.653 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:21:32.753 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:21:52.858 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:24:24.593 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:31:16.909 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:32:31.225 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 10:32:31.226 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 10:32:31.228 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 10:39:51.827 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:45:55.924 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:49:03.759 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 10:49:03.777 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 10:49:03.794 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 10:51:44.049 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:51:57.612 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:52:34.938 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:52:45.451 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 10:53:08.130 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:08:46.190 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:09:39.991 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:09:43.421 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:14:04.042 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:14:04.043 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:14:04.044 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:14:11.735 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:14:11.735 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:14:11.736 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:14:23.866 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:14:31.055 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:14:31.072 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:14:31.088 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:14:55.663 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:14:55.664 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:14:55.665 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:16:04.863 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:16:04.863 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:16:04.864 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:17:23.148 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:17:23.148 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:17:23.150 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:18:04.016 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:18:04.016 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:18:04.017 [http-nio-80-exec-10] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:18:13.396 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:18:13.396 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:18:13.397 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:19:18.638 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:20:05.454 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:20:39.201 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:20:39.221 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:20:39.239 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:22:52.812 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:22:52.813 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:22:52.814 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:23:38.990 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:23:48.942 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:23:54.948 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:23:54.949 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:23:54.951 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:25:02.648 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:25:02.648 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:25:02.650 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:25:44.766 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:28:57.874 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:29:13.144 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:30:01.193 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:30:01.211 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c81e728d9d4c2f636f067f89cc14862c(String)
+2020-07-16 11:30:01.226 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:30:18.599 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:30:35.954 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:30:35.955 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:30:35.960 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:30:36.313 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:31:19.512 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:31:20.395 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:20.395 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:31:20.396 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:31:33.394 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:33.395 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c81e728d9d4c2f636f067f89cc14862c(String)
+2020-07-16 11:31:33.396 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:31:34.984 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:34.985 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:31:34.986 [http-nio-80-exec-7] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:31:39.104 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:39.105 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c81e728d9d4c2f636f067f89cc14862c(String)
+2020-07-16 11:31:39.106 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:31:43.011 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:43.012 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 2(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:31:43.013 [http-nio-80-exec-8] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:31:44.899 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:44.900 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 2(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:31:44.901 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:31:48.285 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:31:48.285 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 12(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:31:48.286 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:32:23.034 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:32:23.036 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:32:23.037 [http-nio-80-exec-4] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:32:26.664 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:32:26.664 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:32:26.665 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:34:07.198 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:34:07.198 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:34:07.199 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 11:44:53.274 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:44:53.274 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 2(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:44:53.275 [http-nio-80-exec-6] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 0
+2020-07-16 11:55:24.492 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 11:56:24.110 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 11:56:24.111 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 11:56:24.112 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 14:09:09.152 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:11:56.308 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:13:41.873 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:14:16.674 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:14:48.444 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:15:37.731 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:16:57.919 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:17:44.865 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:18:25.063 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:19:11.476 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:19:46.161 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:20:16.565 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:20:39.637 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:22:07.714 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 14:22:07.716 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 14:22:07.718 [http-nio-80-exec-9] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 14:46:28.554 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 14:47:06.636 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:00:36.687 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:02:49.355 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:04:44.436 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:05:58.792 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:06:19.712 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 15:06:19.728 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 15:06:19.747 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 15:21:19.218 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 15:21:19.218 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 15:21:19.219 [http-nio-80-exec-2] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 15:43:10.019 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:43:49.263 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 15:43:58.166 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 15:43:58.185 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 15:43:58.205 [http-nio-80-exec-1] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 16:07:53.756 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:08:27.111 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:09:36.368 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:13:17.708 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:15:17.768 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:16:09.571 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:17:08.908 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:33:49.459 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:51:29.356 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:52:18.359 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 16:54:04.372 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 17:10:43.939 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 17:11:48.522 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==>  Preparing: select * from `user` where username = ? and password = ?;
+2020-07-16 17:11:48.541 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - ==> Parameters: 1(String), c4ca4238a0b923820dcc509a6f75849b(String)
+2020-07-16 17:11:48.559 [http-nio-80-exec-3] DEBUG com.aioe.test.demo.mapper.UserMapper.checkUser - <==      Total: 1
+2020-07-16 17:32:43.771 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 17:33:07.219 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-07-16 17:33:22.810 [restartedMain] DEBUG com.aioe.test.demo.DemoApplication - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE

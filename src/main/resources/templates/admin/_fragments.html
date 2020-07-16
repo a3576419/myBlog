@@ -14,8 +14,8 @@
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
             <h2 class="ui teal header item">博客后台管理</h2>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>博客</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
+            <a href="/admin/blogs" th:href="@{/admin/blogs}" class="nav-item m-mobile-hide item" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>博客</a>
+            <a href="/admin/types" th:href="@{/admin/types}" class="nav-item m-mobile-hide item" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
             <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
             <div class="right m-mobile-hide menu">
                 <div class="ui dropdown item">
@@ -25,7 +25,7 @@
                     </div>
                     <i class="dropdown icon"></i>
                     <div class="menu">
-                        <a href="javascript:;" class="item">登出</a>
+                        <a href="/admin/logout" class="item" th:href="@{/admin/logout}">登出</a>
                     </div>
                 </div>
             </div>
@@ -35,6 +35,17 @@
         <i class="sidebar icon"></i>
     </a>
 </nav>
+
+<div th:fragment="menu2(n)" class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="/admin/blogsInput" th:href="@{/admin/blogsInput}" class="item" th:classappend="${n==1}? 'active teal'">发布</a>
+            <a href="/admin/blogs" th:href="@{/admin/blogs}" class="item" th:classappend="${n==2}? 'active teal'">列表</a>
+        </div>
+
+    </div>
+
+</div>
 <!--底部footer-->
 <footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-big">
     <div class="ui center aligned container">
@@ -82,6 +93,7 @@
     <script type="application/javascript" src="/webjars/prismjs/1.20.0/prism.js" th:src="@{/webjars/prismjs/1.20.0/prism.js}"></script>
     <script type="application/javascript" src="/webjars/tocbot/dist/tocbot.js" th:src="@{/webjars/tocbot/dist/tocbot.js}"></script>
     <script type="application/javascript" src="/webjars/qrcodejs/1c78ccd/qrcode.js" th:src="@{/webjars/qrcodejs/1c78ccd/qrcode.js}"></script>
+    <script type="application/javascript" src="/webjars/editor.md/editormd.js" th:src="@{/webjars/editor.md/editormd.js}"></script>
     <script type="application/javascript" src="/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js" th:src="@{/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js}"></script>
     <script type="application/javascript" src="/webjars/waypoints/lib/jquery.waypoints.js" th:src="@{/webjars/waypoints/lib/jquery.waypoints.js}"></script>
 </th:block>

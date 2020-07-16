@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:fragment="head(title)">
+<head th:replace="admin/_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" type="text/css" href="/webjars/animate.css/3.7.2/animate.css">
-    <link rel="stylesheet" type="text/css" href="/webjars/prismjs/1.20.0/themes/prism.css">
-    <link rel="stylesheet" type="text/css" href="/webjars/tocbot/dist/tocbot.css">
+    <link rel="stylesheet" href="/webjars/editor.md/css/editormd.min.css">
+    <link rel="stylesheet" href="/webjars/editor.md/lib/codemirror/codemirror.min.css">
     <link rel="stylesheet" href="/css/diy.css">
-    <link rel="stylesheet" href="/css/typo.css">
-    <title th:replace="${title}">博客详情</title>
+    <title>分类管理</title>
 </head>
 <body>
-<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini">
+<!--导航栏-->
+<nav th:replace="admin/_fragments ::menu(2)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
-            <h2 class="ui teal header item">Blog</h2>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==4} ? 'active'"><i class="clone icon"></i>归档</a>
-            <a href="javascript:;" class="nav-item m-mobile-hide item" th:classappend="${n==5} ? 'active'"><i class="info icon"></i>关于我</a>
-            <div class="right item m-mobile-hide">
-                <div class="ui icon inverted transparent input">
-                    <input type="text" placeholder="Search...">
-                    <i class="search link icon"></i>
-                </div>
-            </div>
+            <h2 class="ui teal header item">博客后台分类管理</h2>
+            <a href="javascript:;" class="active nav-item m-mobile-hide item"><i class="home icon"></i>博客</a>
+            <a href="javascript:;" class="nav-item m-mobile-hide item"><i class="idea icon"></i>分类</a>
+            <a href="javascript:;" class="nav-item m-mobile-hide item"><i class="tags icon"></i>标签</a>
             <div class="right m-mobile-hide menu">
                 <div class="ui dropdown item">
                     <div class="text">
                         <img src="https://picsum.photos/id/1003/100/100" alt="" class="ui avatar image">
-                        请登录
+                        崔诗东
                     </div>
                     <i class="dropdown icon"></i>
                     <div class="menu">
@@ -45,15 +36,48 @@
         <i class="sidebar icon"></i>
     </a>
 </nav>
+<div th:replace="admin/_fragments ::menu2(1)" class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="javascript:;" class="active teal item">发布</a>
+            <a href="javascript:;" class="item">列表</a>
+        </div>
+
+    </div>
+
+</div>
+<!--中间内容-->
+<div class="m-container-small stackable m-padded-tb-big ">
+    <div class="ui container">
+        <!--        header-->
+        <form action="javascript:;" method="post" class="ui form">
+
+
+            <div class="field">
+                <div class="ui left labeled input">
+                    <label class="ui teal basic label">名称</label>
+                    <input type="text" name="name" placeholder="分类名称">
+                </div>
+            </div>
+
+            <div class="ui error message"></div>
+            <div class="ui right aligned container">
+                <button type="button" class="ui button" onclick="window.history.go(-1)">返回</button>
+                <button class="ui teal button">提交</button>
+            </div>
+        </form>
+    </div>
+</div>
+
 
 <!--底部footer-->
-<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-big">
+<footer class="ui inverted vertical segment m-padded-tb-big">
     <div class="ui center aligned container">
         <div class="ui inverted divided stackable grid">
             <div class="three wide column">
                 <div class="ui inverted link list">
                     <div class="item">
-                        <img src="/images/wechat.jpg" class="ui rounded image" alt="" style="width:110px">
+                        <img src="../images/wechat.jpg" class="ui rounded image" alt="" style="width:110px">
                     </div>
                 </div>
             </div>
@@ -86,15 +110,31 @@
     </div>
 
 </footer>
+<!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->
+<script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js"></script>
+<script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
+<script type="application/javascript" src="/webjars/editor.md/editormd.js"></script>
+<!--/*/</th:block>/*/-->
+<script>
+    $('#button').click(function () {
+        $('.nav-item').toggleClass('m-mobile-hide')
+    });
 
-<th:block th:fragment="script">
-    <script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js" th:src="@{/webjars/jquery/3.5.1/dist/jquery.js}"></script>
-    <script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js" th:src="@{/webjars/Semantic-UI/2.4.1/semantic.min.js}"></script>
-    <script type="application/javascript" src="/webjars/prismjs/1.20.0/prism.js" th:src="@{/webjars/prismjs/1.20.0/prism.js}"></script>
-    <script type="application/javascript" src="/webjars/tocbot/dist/tocbot.js" th:src="@{/webjars/tocbot/dist/tocbot.js}"></script>
-    <script type="application/javascript" src="/webjars/qrcodejs/1c78ccd/qrcode.js" th:src="@{/webjars/qrcodejs/1c78ccd/qrcode.js}"></script>
-    <script type="application/javascript" src="/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js" th:src="@{/webjars/jquery.scrollTo/2.1.1/jquery.scrollTo.js}"></script>
-    <script type="application/javascript" src="/webjars/waypoints/lib/jquery.waypoints.js" th:src="@{/webjars/waypoints/lib/jquery.waypoints.js}"></script>
-</th:block>
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    });
+    $('.ui.form').form({
+        fields: {
+            title: {
+                identifier: 'title',
+                rules: [{
+                    type: 'empty',
+                    prompt: '标题：请输入博客标题'
+                }]
+            }
+        }
+    });
+
+</script>
 </body>
 </html>

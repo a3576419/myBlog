@@ -3,8 +3,8 @@
 <head th:replace="admin/_fragments ::head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="webjars/Semantic-UI/2.4.1/semantic.css">
-    <link rel="stylesheet" href="css/diy.css" >
+    <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.4.1/semantic.css">
+    <link rel="stylesheet" href="/css/diy.css" >
     <title>登录博客管理</title>
 </head>
 <body>
@@ -40,21 +40,21 @@
                             <button class="ui fluid large teal submit button">登录</button>
                         </div>
 
-                        <div class="ui error message"></div>
+                            <div class="ui error message"></div>
 
                     </form>
 
-                    <div class="ui message" style="display: none">
-<!--                        New to us? <a href="#">Sign Up</a>-->
+                    <div class="ui message" >
+                        没有账号? <a href="#">在此创建</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-<!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->
+<!--/*<th:block th:replace="admin/_fragments ::script">*/-->
 <script type="application/javascript" src="/webjars/jquery/3.5.1/dist/jquery.js"></script>
 <script type="application/javascript" src="/webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
-<!--/*/</th:block>/*/-->
+<!--/*</th:block>*/-->
 
 </body>
 </html>

@@ -4832,7 +4832,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 	... 48 common frames omitted
 2020-07-15 17:11:04.077 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.aioe.test.demo]' package. Please check your configuration.
 2020-07-15 17:11:04.081 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
-org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.aioe.test.demo.controller.AdminController] for bean with name 'adminController' defined in file [D:\workspace\idea\PrivateBlog\target\classes\com\aioe\test\demo\controller\AdminController.class]; nested exception is java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.aioe.test.demo.controller.admin.AdminController] for bean with name 'adminController' defined in file [D:\workspace\idea\PrivateBlog\target\classes\com\aioe\test\demo\controller\AdminController.class]; nested exception is java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1480)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
@@ -4855,7 +4855,7 @@ org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find clas
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -6619,7 +6619,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 	... 48 common frames omitted
 2020-07-15 17:21:47.742 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.aioe.test.demo]' package. Please check your configuration.
 2020-07-15 17:21:47.744 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
-org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.aioe.test.demo.controller.AdminController] for bean with name 'adminController' defined in file [D:\workspace\idea\PrivateBlog\target\classes\com\aioe\test\demo\controller\AdminController.class]; nested exception is java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.aioe.test.demo.controller.admin.AdminController] for bean with name 'adminController' defined in file [D:\workspace\idea\PrivateBlog\target\classes\com\aioe\test\demo\controller\AdminController.class]; nested exception is java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1480)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
@@ -6642,7 +6642,7 @@ org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find clas
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
 	at java.security.AccessController.doPrivileged(Native Method)

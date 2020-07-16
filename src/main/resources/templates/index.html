@@ -9,7 +9,7 @@
 </head>
 <body>
 <!--导航栏-->
-    <nav th:replace="_fragments ::menu(1)" class="ui inverted attached segment m-padded-tb-mini">
+    <nav  class="ui inverted attached segment m-padded-tb-mini">
         <div class="ui container">
             <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Blog</h2>
@@ -22,6 +22,18 @@
                        <input type="text" placeholder="Search...">
                        <i class="search link icon"></i>
                    </div>
+                </div>
+                <div class="right m-mobile-hide menu">
+                    <div class="ui dropdown item">
+                        <div class="text">
+                            <img src="https://picsum.photos/id/1003/100/100" alt="" class="ui avatar image">
+                            请登录
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="javascript:;" class="item">登出</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -506,6 +518,7 @@
         </div>
 
     </footer>
+
 <!--/*/<th:block th:replace="_fragments ::script">/*/-->
     <script type="application/javascript" src="webjars/jquery/3.5.1/dist/jquery.min.js"></script>
     <script type="application/javascript" src="webjars/Semantic-UI/2.4.1/semantic.min.js"></script>
@@ -514,6 +527,10 @@
     $('#button').click(function () {
         $('.nav-item').toggleClass('m-mobile-hide')
     })
+
+    $('.ui.dropdown').dropdown({
+        on:'hover'
+    });
 </script>
 
 </body>

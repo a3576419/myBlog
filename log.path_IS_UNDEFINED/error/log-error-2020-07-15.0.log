@@ -7231,7 +7231,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7242,7 +7242,7 @@ Action:
 Consider defining a bean of type 'com.aioe.test.demo.service.UserService' in your configuration.
 
 2020-07-15 17:11:04.081 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.demo.controller.AdminController
+java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.demo.controller.admin.AdminController
 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:393)
 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:257)
 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
@@ -7262,7 +7262,7 @@ java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -7288,7 +7288,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7306,7 +7306,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7324,7 +7324,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7342,7 +7342,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7360,7 +7360,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7378,7 +7378,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7396,7 +7396,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7463,7 +7463,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7481,7 +7481,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7499,7 +7499,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7517,7 +7517,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7535,7 +7535,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7553,7 +7553,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7571,7 +7571,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7589,7 +7589,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -7607,7 +7607,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8017,7 +8017,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8028,7 +8028,7 @@ Action:
 Consider defining a bean of type 'com.aioe.test.demo.service.UserService' in your configuration.
 
 2020-07-15 17:21:47.744 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.demo.controller.AdminController
+java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.demo.controller.admin.AdminController
 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:393)
 	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:257)
 	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
@@ -8048,7 +8048,7 @@ java.lang.IllegalStateException: Cannot load configuration class: com.aioe.test.
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:483)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.AdminController
+Caused by: java.lang.ClassNotFoundException: com.aioe.test.demo.controller.admin.AdminController
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -8172,7 +8172,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8190,7 +8190,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8208,7 +8208,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8226,7 +8226,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8244,7 +8244,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8262,7 +8262,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8280,7 +8280,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8298,7 +8298,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8316,7 +8316,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8334,7 +8334,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8352,7 +8352,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8370,7 +8370,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8388,7 +8388,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8406,7 +8406,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -8424,7 +8424,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field userService in com.aioe.test.demo.controller.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
+Field userService in com.aioe.test.demo.controller.admin.AdminController required a bean of type 'com.aioe.test.demo.service.UserService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
