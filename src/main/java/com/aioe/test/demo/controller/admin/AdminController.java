@@ -1,13 +1,11 @@
 package com.aioe.test.demo.controller.admin;
 
+import com.aioe.test.demo.pojo.BaseBean;
 import com.aioe.test.demo.pojo.User;
 import com.aioe.test.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpSession;
@@ -77,5 +75,15 @@ public class AdminController {
     public String SignUp(){
 
         return "/admin/SignUp";
+    }
+
+    @ResponseBody
+    @PostMapping("/SignUser")
+    public BaseBean SignUser(User user){
+        BaseBean baseBean = new BaseBean();
+        baseBean.setDate(user);
+        baseBean.setCode(200);
+        baseBean.setMsg("success");
+        return baseBean;
     }
 }

@@ -14,12 +14,18 @@
     }
 </style>
 <body>
-    <div class="ui container teal">
+    <div class="ui container teal"style="width: 50%">
 
            <h2>新用户注册</h2>
             <hr>
-            <form class="ui large form" method="post" action="#" th:action="@{/admin/login}">
+            <form class="ui large form" method="post" action="#" th:action="@{/admin/SignUser}">
                 <div class="ui segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user secret icon"></i>
+                            <input type="text" name="nickName" placeholder="昵称">
+                        </div>
+                    </div>
                     <div class="field">
                         <div class="ui left icon input">
                             <i class="user icon"></i>
@@ -32,7 +38,20 @@
                             <input type="password" name="password" placeholder="密码">
                         </div>
                     </div>
-                    <button class="ui fluid large teal submit button">注册</button>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="rePassword" placeholder="再次输入密码">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="email" name="email" placeholder="邮箱">
+                        </div>
+                    </div>
+                    <button id="SignUser_btn" class="ui fluid large teal button m-margin-button-mini">注册</button>
+                    <button id="back_btn" class="ui fluid large teal button">返回</button>
                 </div>
 
                 <div class="ui error message"></div>
@@ -45,4 +64,17 @@
 <!--/*/<th:block th:replace="admin/_fragments ::script">/*/-->
 
 <!--/*/</th:block>/*/-->
+<script>
+    $('#back_btn').click(function () {
+        $.ajax({
+            url: '/admin'
+        })
+    })
+    $('#SignUser_btn').click(function () {
+        $.ajax({
+            url: '/admin/SignUser',
+
+        })
+    })
+</script>
 </html>

@@ -17,7 +17,9 @@
 
     <properties>
         <java.version>1.8</java.version>
-
+        <docker.repostory>com.aioe.test</docker.repostory>
+        <docker.registry>PrivateBlog</docker.registry>
+        <docker.image.prefix>PrivateBlog</docker.image.prefix>
     </properties>
 
     <dependencies>
@@ -96,12 +98,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.webjars.bower</groupId>-->
-<!--            <artifactId>jquery-waypoints</artifactId>-->
-<!--            <version>4.0.1</version>-->
-<!--        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/org.webjars/jquery.scrollTo -->
+
+        <!--    redis    -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery.scrollTo</artifactId>
@@ -157,15 +159,42 @@
             <artifactId>junit</artifactId>
         </dependency>
 
+
     </dependencies>
 
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <!-- Docker maven plugin -->
+            <plugin>
+                <!-- https://mvnrepository.com/artifact/com.spotify/docker-maven-plugin -->
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.4.13</version>
+                <configuration>
+                    <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.war</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+            <!-- Docker maven plugin -->
         </plugins>
     </build>
-
 </project>
