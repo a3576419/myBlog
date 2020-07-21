@@ -83,7 +83,7 @@ public class AdminController {
 
     @ResponseBody
     @PostMapping("/SignUser")
-    public BaseBean SignUser(User user){
+    public BaseBean signUser(User user){
         BaseBean baseBean = new BaseBean();
         user.setPassword(md5Code(user.getPassword()));
         user.setCreateTime(new Date());
