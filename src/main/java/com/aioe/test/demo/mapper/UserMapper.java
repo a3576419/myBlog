@@ -6,4 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 
 public interface UserMapper {
     User checkUser(String username, String password);
+
+    void insertUser(User user);
 }

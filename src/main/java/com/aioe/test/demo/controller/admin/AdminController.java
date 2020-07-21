@@ -3,12 +3,16 @@ package com.aioe.test.demo.controller.admin;
 import com.aioe.test.demo.pojo.BaseBean;
 import com.aioe.test.demo.pojo.User;
 import com.aioe.test.demo.service.UserService;
+import com.aioe.test.demo.utils.Utils.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpSession;
+import java.util.Date;
+
+import static com.aioe.test.demo.utils.Utils.md5Code;
 
 @Controller
 @RequestMapping("admin")
@@ -81,9 +85,15 @@ public class AdminController {
     @PostMapping("/SignUser")
     public BaseBean SignUser(User user){
         BaseBean baseBean = new BaseBean();
-        baseBean.setDate(user);
+        user.setPassword(md5Code(user.getPassword()));
+        user.setCreateTime(new Date());
+        user.setUpdateTime(new Date());
+        user.setType(1);
+        userService.insertUser(user);
+        //baseBean.setDate(user);
         baseBean.setCode(200);
         baseBean.setMsg("success");
+        System.out.println("success");
         return baseBean;
     }
 }

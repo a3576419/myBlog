@@ -9,4 +9,5 @@ public interface UserService {
 
     User checkUser(String username,String password);
 
+    void insertUser(User user);
 }

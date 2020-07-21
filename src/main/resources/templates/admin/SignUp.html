@@ -18,7 +18,7 @@
 
            <h2>新用户注册</h2>
             <hr>
-            <form class="ui large form" method="post" action="#" th:action="@{/admin/SignUser}">
+            <form id="form0" class="ui large form" >
                 <div class="ui segment">
                     <div class="field">
                         <div class="ui left icon input">
@@ -71,9 +71,15 @@
         })
     })
     $('#SignUser_btn').click(function () {
+        alert("123")
         $.ajax({
             url: '/admin/SignUser',
-
+            type: 'post',
+            data: $('#form0').serialize(),
+            dataType:'json',
+            success:function (data) {
+                alert('success')
+            }
         })
     })
 </script>

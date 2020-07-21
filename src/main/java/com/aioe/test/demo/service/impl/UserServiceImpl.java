@@ -19,4 +19,9 @@ public class UserServiceImpl implements UserService {
     public User checkUser(String username, String password) {
         return userMapper.checkUser(username, Utils.md5Code(password));
     }
+
+    @Override
+    public void insertUser(User user) {
+        userMapper.insertUser(user);
+    }
 }
