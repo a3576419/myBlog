@@ -4,25 +4,25 @@ import javax.xml.crypto.Data;
 import java.time.Period;
 
 public class BaseBean<T> {
-    private T date;
+    private T data;
     private Integer code;
     private String msg;
 
     @Override
     public String toString() {
         return "BaseBean{" +
-                "date=" + date +
+                "data=" + data +
                 ", code=" + code +
                 ", msg='" + msg + '\'' +
                 '}';
     }
 
-    public T getDate() {
-        return date;
+    public T getData() {
+        return data;
     }
 
-    public void setDate(T date) {
-        this.date = date;
+    public void setData(T data) {
+        this.data = data;
     }
 
     public Integer getCode() {

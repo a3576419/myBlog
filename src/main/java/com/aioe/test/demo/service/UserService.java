@@ -10,4 +10,10 @@ public interface UserService {
     User checkUser(String username,String password);
 
     void insertUser(User user);
+
+    String findUsername(String username);
+
+    String findInfo(User user);
+
+    boolean findEmail(String email);
 }

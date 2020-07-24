@@ -13,6 +13,7 @@ public class User implements Serializable {
     private String nickName;
     private String username;
     private String password;
+    private String rePassword;
     private String email;
     private String avator;
     private Integer type;
@@ -50,6 +51,14 @@ public class User implements Serializable {
     }
 
     public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getRePassword() {
+        return password;
+    }
+
+    public void setRePassword(String password) {
         this.password = password;
     }
 
@@ -108,6 +117,7 @@ public class User implements Serializable {
                 ", nickName='" + nickName + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", rePassword='" + rePassword + '\'' +
                 ", email='" + email + '\'' +
                 ", avator='" + avator + '\'' +
                 ", type=" + type +

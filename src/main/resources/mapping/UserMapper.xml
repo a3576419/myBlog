@@ -11,4 +11,28 @@
     <insert id="insertUser" parameterType="user">
         INSERT INTO `user` (nickName,username,PASSWORD,email,`type`,createTime,updateTime) VALUES(#{nickName},#{username},#{password},#{email},#{type},#{createTime},#{updateTime})
     </insert>
+
+
+    <select id="findUsername" parameterType="string" resultType="string">
+        select username from user where username = #{username}
+    </select>
+
+    <select id="findEmail" parameterType="string" resultType="string">
+        select email from user where username = #{email}
+    </select>
+
+
+
+    <select id="findInfo" parameterType="user" resultType="user">
+        select username,email from user
+            <where>
+                <if test="username != null and username != ''">
+                    username = #{username}
+                </if>
+                <if test="email != null and email != ''">
+                    and email = #{email}
+                </if>
+            </where>
+
+    </select>
 </mapper>
